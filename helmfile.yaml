@@ -1,0 +1,10 @@
+---
+repositories:
+  - name: hello-world
+    url: git+https://github.com/wnr4r/helmchart@hello-world?ref=main&sparse=0
+
+releases:
+
+  - name: my-hello-world
+    chart: hello-world/hello-world
+    installed: true
